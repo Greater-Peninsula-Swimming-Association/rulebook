@@ -36,7 +36,7 @@ book:
   # Navigation
   sidebar:
     title: "GPSA Rulebook"
-    logo: https://publicity.gpsaswimming.org/assets/gpsa_logo.png
+    logo: gpsa_logo.png
     logo-href: https://gpsaswimming.org
     search: true
     tools:
@@ -108,7 +108,7 @@ format:
             \vspace*{2cm}
 
             % GPSA Logo
-            \includegraphics[width=3in]{../../assets/gpsa_logo.png}
+            \includegraphics[width=3in]{gpsa_logo.png}
 
             \vspace{1.5cm}
 

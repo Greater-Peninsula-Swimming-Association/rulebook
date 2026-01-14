@@ -118,7 +118,7 @@ To add a new chapter:
 ### GPSA Branding
 
 The PDF includes custom LaTeX styling (defined in `_quarto.yml`):
-- Custom title page with GPSA logo (`../../assets/gpsa_logo.png`)
+- Custom title page with GPSA logo (`gpsa_logo.png`)
 - Navy blue section headings with red underlines
 - Custom headers/footers with GPSA branding
 - Chapters styled as numbered sections (no "Chapter" prefix)
