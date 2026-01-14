@@ -36,7 +36,7 @@ book:
   # Navigation
   sidebar:
     title: "GPSA Rulebook"
-    logo: gpsa_logo.png
+    logo: https://publicity.gpsaswimming.org/assets/gpsa_logo.png
     logo-href: https://gpsaswimming.org
     search: true
     tools:
