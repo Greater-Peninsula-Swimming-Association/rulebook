@@ -1,0 +1,57 @@
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Editors and IDEs
+.claude/
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Quarto build artifacts
+.quarto/
+_freeze/
+*_files/
+*_cache/
+
+# Quarto output directory (built by GitHub Actions)
+docs/
+
+# Quarto search index (generated)
+search.json
+
+# LaTeX intermediate files (generated during PDF build)
+*.aux
+*.bbl
+*.blg
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Backup and temporary files
+*~
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Environment and secrets (just in case)
+.env
+.env.*
+*.key
+*.pem
+secrets.yml
+credentials.json
+
+# Local development
+local-notes/
+drafts/
+scratch/
+
+# Log files
+*.log

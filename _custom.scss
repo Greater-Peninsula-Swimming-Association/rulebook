@@ -1,0 +1,441 @@
+/*-- scss:defaults --*/
+
+// GPSA Brand Colors
+$navy-blue: #002366;
+$light-blue: #0033a0;
+$red: #d9242b;
+$dark-red: #b81e24;
+$light-gray: #f8f9fa;
+
+// Primary color scheme using GPSA navy
+$primary: $navy-blue;
+$secondary: $red;
+$link-color: $light-blue;
+
+// Typography
+$headings-color: $navy-blue;
+$body-color: #333;
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+// Navbar
+$navbar-bg: $navy-blue;
+$navbar-fg: white;
+
+/*-- scss:rules --*/
+
+// ============================================================================
+// Sidebar Navigation (applies to both light and dark mode)
+// ============================================================================
+
+// Ensure the index page always shows in sidebar navigation (even when active)
+.sidebar-navigation {
+  .sidebar-item {
+    display: block !important;
+
+    a.sidebar-link {
+      display: block !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+  }
+}
+
+// ============================================================================
+// Navigation and Header (structural - applies to both modes)
+// ============================================================================
+
+// Override Headroom.js - keep header always visible and sticky
+#quarto-header {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  transform: translateY(0) !important;
+  transition: none !important;
+  z-index: 1030 !important;
+  will-change: auto !important;
+
+  &.headroom,
+  &.headroom--top,
+  &.headroom--not-top,
+  &.headroom--bottom,
+  &.headroom--not-bottom,
+  &.headroom--unpinned,
+  &.headroom--pinned {
+    position: fixed !important;
+    top: 0 !important;
+    transform: translateY(0) !important;
+    transition: none !important;
+  }
+}
+
+// Add padding to main content to account for fixed header
+// Header is approximately 100-120px depending on draft banner
+#quarto-margin-sidebar {
+  margin-top: 10px !important;
+}
+
+#quarto-document-content {
+  padding-top: 10px !important;
+}
+
+.sidebar.sidebar-navigation {
+  top: 10px !important;
+}
+
+// ============================================================================
+// GPSA Branding Styles
+// ============================================================================
+
+.navbar {
+  background-color: $navy-blue !important;
+  border-bottom: 3px solid $red;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .navbar-brand {
+    font-weight: 700;
+    color: white !important;
+    font-size: 1.25rem;
+
+    &:hover {
+      color: $light-gray !important;
+    }
+  }
+
+  .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: $red !important;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    &.active {
+      color: $red !important;
+      font-weight: 600;
+    }
+  }
+}
+
+// Draft alert styling
+#quarto-draft-alert {
+  background-color: lighten($red, 40%) !important;
+  border-color: $red !important;
+  color: $dark-red !important;
+  margin: 0;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-weight: 600;
+
+  i {
+    color: $red;
+  }
+}
+
+// Sidebar logo
+.sidebar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+// ============================================================================
+// Typography and Headings
+// ============================================================================
+
+h1, h2, h3, h4, h5, h6 {
+  color: $navy-blue;
+  font-weight: 600;
+}
+
+h1 {
+  border-bottom: 3px solid $red;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  border-bottom: 2px solid $light-gray;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+// Main content area
+#quarto-content {
+  main {
+    max-width: 900px;
+  }
+}
+
+// ============================================================================
+// Links
+// ============================================================================
+
+a {
+  color: $light-blue;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $red;
+    text-decoration: underline;
+  }
+}
+
+// Emphasis on key terms (bold text in definitions)
+strong {
+  color: $navy-blue;
+  font-weight: 600;
+}
+
+// ============================================================================
+// Tables (Event Schedules)
+// ============================================================================
+
+table {
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  thead {
+    background-color: $navy-blue;
+    color: white;
+
+    th {
+      padding: 0.75rem;
+      text-align: center;
+      font-weight: 600;
+      border: 1px solid darken($navy-blue, 5%);
+    }
+  }
+
+  tbody {
+    tr {
+      transition: background-color 0.15s ease;
+
+      &:nth-child(even) {
+        background-color: $light-gray;
+      }
+
+      &:hover {
+        background-color: lighten($light-blue, 45%);
+      }
+    }
+
+    td {
+      padding: 0.5rem;
+      text-align: center;
+      border: 1px solid #dee2e6;
+    }
+  }
+}
+
+// ============================================================================
+// Table of Contents (Sidebar)
+// ============================================================================
+
+// .sidebar nav[role="doc-toc"] {
+//   ul {
+//     padding-left: 0;
+
+//     li {
+//       margin: 0.25rem 0;
+
+//       a {
+//         color: $navy-blue;
+//         padding: 0.25rem 0.5rem;
+//         display: block;
+//         border-left: 3px solid transparent;
+//         transition: all 0.2s ease;
+
+//         &:hover {
+//           background-color: $light-gray;
+//           border-left-color: $red;
+//           text-decoration: none;
+//         }
+
+//         &.active {
+//           background-color: lighten($navy-blue, 55%);
+//           border-left-color: $red;
+//           font-weight: 600;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// ============================================================================
+// Callouts and Admonitions
+// ============================================================================
+
+.callout {
+  border-left: 4px solid $red;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background-color: $light-gray;
+
+  .callout-header {
+    font-weight: 600;
+    color: $navy-blue;
+  }
+}
+
+.callout.callout-note {
+  border-left-color: $light-blue;
+  background-color: lighten($light-blue, 48%);
+}
+
+.callout.callout-important {
+  border-left-color: $red;
+  background-color: lighten($red, 45%);
+}
+
+.callout.callout-warning {
+  border-left-color: #ffc107;
+  background-color: lighten(#ffc107, 40%);
+}
+
+// ============================================================================
+// Footer
+// ============================================================================
+
+.nav-footer {
+  background-color: $navy-blue;
+  color: white;
+  border-top: 3px solid $red;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+
+  a {
+    color: white;
+
+    &:hover {
+      color: $red;
+    }
+  }
+
+  .nav-footer-left,
+  .nav-footer-center,
+  .nav-footer-right {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+// ============================================================================
+// Search
+// ============================================================================
+
+#quarto-search {
+  .aa-Form {
+    border: 2px solid $navy-blue;
+    border-radius: 0.25rem;
+
+    &:focus-within {
+      border-color: $red;
+      box-shadow: 0 0 0 3px rgba($red, 0.1);
+    }
+  }
+}
+
+// ============================================================================
+// Navigation Breadcrumbs
+// ============================================================================
+
+.breadcrumb {
+  background-color: transparent;
+  padding: 0.5rem 0;
+
+  .breadcrumb-item {
+    color: $navy-blue;
+
+    + .breadcrumb-item::before {
+      color: $red;
+    }
+
+    &.active {
+      color: $red;
+      font-weight: 600;
+    }
+  }
+}
+
+// ============================================================================
+// Code Blocks (if any)
+// ============================================================================
+
+code {
+  color: $red;
+  background-color: $light-gray;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+}
+
+pre {
+  background-color: $light-gray;
+  border-left: 3px solid $navy-blue;
+  padding: 1rem;
+  border-radius: 0.25rem;
+
+  code {
+    background-color: transparent;
+    padding: 0;
+  }
+}
+
+// ============================================================================
+// Responsive Adjustments
+// ============================================================================
+
+@media (max-width: 768px) {
+  .sidebar-logo {
+    max-width: 80px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+
+    thead th,
+    tbody td {
+      padding: 0.4rem;
+    }
+  }
+}
+
+// ============================================================================
+// Print Styles
+// ============================================================================
+
+@media print {
+  .navbar,
+  .sidebar,
+  .nav-footer,
+  #quarto-search {
+    display: none !important;
+  }
+
+  #quarto-content {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    page-break-after: avoid;
+  }
+
+  table {
+    page-break-inside: avoid;
+  }
+}

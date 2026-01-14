@@ -1,0 +1,215 @@
+project:
+  type: book
+  output-dir: docs
+  resources:
+    - CNAME
+    - .nojekyll
+
+# Filters - applied in order listed
+filters:
+  - filters/draft-watermark.lua
+  - filters/draft-banner.lua
+
+book:
+  title: "GPSA Rulebook"
+  subtitle: "Greater Peninsula Swimming Association"
+  author: "GPSA Rules Committee"
+  date: today
+  date-format: "MMMM YYYY"
+  site-url: https://rulebook.gpsaswimming.org
+  favicon: "favicon-32x32.png"
+
+  page-navigation: true
+
+  # Book structure - chapters in order
+  chapters:
+    - index.qmd
+    - definitions.md
+    - eligibility-and-rosters.md
+    - officials.md
+    - order-of-events.md
+    - conduct-of-meets.md
+    - scoring.md
+    - awards.md
+    - facilities.md
+
+  # Navigation
+  sidebar:
+    title: "GPSA Rulebook"
+    logo: https://publicity.gpsaswimming.org/assets/gpsa_logo.png
+    logo-href: https://gpsaswimming.org
+    search: true
+    tools:
+      - icon: house
+        href: https://gpsaswimming.org
+        text: "GPSA Home"
+      - icon: file-pdf
+        href: GPSA-Rulebook.pdf
+        text: "Download PDF"
+      - icon: book
+        href: GPSA-Rulebook.epub
+        text: "Download ePub"
+
+# Format configurations
+format:
+  # HTML output (website)
+  html:
+    theme: [cosmo, _custom.scss]
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    link-external-newwindow: true
+    code-link: true
+
+  # PDF output
+  pdf:
+    documentclass: report
+    classoption: [oneside]
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    geometry:
+      - margin=1in
+      - top=1.25in
+      - bottom=1.25in
+    colorlinks: true
+    linkcolor: NavyBlue
+    urlcolor: NavyBlue
+    toccolor: NavyBlue
+    papersize: letter
+    fig-pos: 'H'
+    pdf-engine: pdflatex
+    keep-tex: false
+
+    # Title page customization
+    include-in-header:
+      text: |
+        \usepackage{graphicx}
+        \usepackage{xcolor}
+        \usepackage{pagecolor}
+        \definecolor{GPSANavy}{HTML}{002366}
+        \definecolor{GPSARed}{HTML}{d9242b}
+
+        % Define subtitle command
+        \makeatletter
+        \newcommand{\subtitle}[1]{\gdef\@subtitle{#1}}
+        \newcommand{\@subtitle}{}
+        \makeatother
+
+        % Custom title page
+        \makeatletter
+        \renewcommand{\maketitle}{
+          \begin{titlepage}
+            \pagecolor{white}
+            \newgeometry{margin=1in}
+
+            % Center everything vertically and horizontally
+            \centering
+            \vspace*{2cm}
+
+            % GPSA Logo
+            \includegraphics[width=3in]{../../assets/gpsa_logo.png}
+
+            \vspace{1.5cm}
+
+            % Title
+            {\Huge\bfseries\color{GPSANavy}\@title\par}
+
+            \vspace{0.5cm}
+
+            % Subtitle
+            {\Large\color{GPSANavy}\@subtitle\par}
+
+            \vspace{2cm}
+
+            % Decorative line
+            {\color{GPSARed}\rule{4in}{2pt}\par}
+
+            \vspace{2cm}
+
+            % Date
+            {\large\@date\par}
+
+            \vfill
+
+            % Footer text
+            {\footnotesize\color{gray}
+            Official Rules and Regulations\\
+            Greater Peninsula Swimming Association\\
+            \vspace{0.3cm}
+            www.gpsaswimming.org
+            \par}
+
+            \restoregeometry
+          \end{titlepage}
+          \pagecolor{white}
+          % Clear any blank pages after title
+          \clearpage
+        }
+        \makeatother
+
+        % Remove blank page before TOC
+        \let\cleardoublepage\clearpage
+
+        % Chapter/Section styling for technical document
+        \usepackage{titlesec}
+
+        % Format chapters as sections (no "Chapter" prefix)
+        \titleformat{\chapter}[block]
+          {\normalfont\huge\bfseries\color{GPSANavy}}
+          {\thechapter.}{0.5em}{}
+          [\vspace{2pt}{\color{GPSARed}\titlerule[2pt]}]
+
+        % Reduce top padding: {left}{before}{after}
+        \titlespacing*{\chapter}{0pt}{0pt}{20pt}
+
+        % Section formatting
+        \titleformat{\section}
+          {\normalfont\Large\bfseries\color{GPSANavy}}
+          {\thesection}{1em}{}
+
+        % Subsection formatting
+        \titleformat{\subsection}
+          {\normalfont\large\bfseries\color{GPSANavy}}
+          {\thesubsection}{1em}{}
+
+        % Headers and footers
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhf{} % Clear all header and footer fields
+
+        % Headers - same on all pages
+        \fancyhead[L]{\small\color{GPSANavy}\textbf{Greater Peninsula Swimming Association (GPSA)}}
+        \fancyhead[R]{\small\color{GPSANavy}\textbf{GPSA Rulebook}}
+
+        % Footers - same on all pages
+        \fancyfoot[C]{\small\thepage}
+        \fancyfoot[R]{\small\color{gray}{{< meta date >}}}
+
+        % Header rule color
+        \renewcommand{\headrulewidth}{0.4pt}
+        \renewcommand{\headrule}{\hbox to\headwidth{\color{GPSARed}\leaders\hrule height \headrulewidth\hfill}}
+
+        % Footer rule
+        \renewcommand{\footrulewidth}{0pt}
+
+        % Apply fancy style to all pages including section first pages
+        \makeatletter
+        \let\ps@plain\ps@fancy
+        \makeatother
+
+  # EPUB output
+  epub:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    cover-image: ePub_Cover.png
+    title-page: false
+    css: epub-styles.css
+
+# Execution - don't execute code blocks by default
+execute:
+  enabled: false
+
+# Metadata
+lang: en
