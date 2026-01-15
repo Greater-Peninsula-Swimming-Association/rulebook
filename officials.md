@@ -20,15 +20,13 @@ This section outlines the roles, responsibilities, and certification requirement
 
 7. If a GPSA Representative serves in another official capacity during a meet (e.g., as a Starter or Stroke & Turn Judge), they must designate an alternate to handle the responsibilities of the Representative for the duration of the meet. The coach may not be designated as the alternate.
 
-8. When serving as the host team, the GPSA Representative shall submit meet results to the GPSA Publicity Committee within 24 hours of meet completion. Failure to submit results within this deadline may result in penalties at the discretion of the Rules Committee.
-
-9. Shall sign and submit the GPSA Code of Conduct acknowledgment form, and ensure that all coaches sign the form. Signed forms must be submitted to the Rules Committee no later than seven (7) days before the team's first scheduled meet.
+8. Shall sign and submit the GPSA Code of Conduct acknowledgment form, and ensure that all coaches sign the form. Signed forms must be submitted to the Rules Committee no later than seven (7) days before the team's first scheduled meet.
 
     a. Teams that fail to submit signed Code of Conduct forms by the deadline shall forfeit all scheduled meets until the required forms are received by the Rules Committee.
 
     b. A new Code of Conduct acknowledgment form must be submitted if the GPSA Representative changes or new coaches are added during the season.
 
-10. Shall ensure that the team's SwimTopia registration includes the GPSA Code of Conduct agreement clause as a required element for parents and guardians.
+9. Shall ensure that the team's SwimTopia registration includes the GPSA Code of Conduct agreement clause as a required element for parents and guardians.
 
 ### Meet Referee
 
@@ -44,9 +42,9 @@ This section outlines the roles, responsibilities, and certification requirement
 
 6. Shall independently record the order of finish of all non-exhibition swimmers.
 
-7. Shall confirm the order of finish for each scoring heat which the Sweep Judges differ. If the order of finish was observed by the referee and it confirms one of the Sweep Judges, that order of finish shall be documented on the Place Judge Form. If the Referee is unable to confirm one of the Sweep Judges' order of finish, the result shall be a tie between the differing swimmers.
+7. Shall confirm the order of finish for each scoring heat which the Sweep Judges differ. If the order of finish was observed by the referee and their observation confirms one of the Sweep Judges, that order of finish shall be documented on the Place Judge Form. If the Referee is unable to confirm one of the Sweep Judges' order of finish, the result shall be a tie between the differing swimmers.
 
-8. Shall control any abusive language or actions used by any swimmer or spectator that is generally made aware to the attendees of the meet. The offender shall be warned by the referee to desist. On continuing, the referee shall request the home-team GPSA Representative, with assistance from the home pool manager, to have the offender ejected.
+8. Shall control any abusive language or actions used by any swimmer or spectator. The offender shall be warned by the referee to desist. On continuing, the referee shall request the home-team GPSA Representative, with assistance from the home pool manager, to have the offender ejected.
 
 9. Shall resolve any protest arising from the competition itself immediately. Only GPSA Representatives, or their duly appointed representatives, or coaches can raise an official protest to the referee.
 
@@ -70,7 +68,7 @@ This section outlines the roles, responsibilities, and certification requirement
 
     c. Signing the DQ slip to finalize the disqualification. Any questionable or unusual infractions should be discussed with the Meet Referee before a final decision is made.
 
-    d. Ensuring DQ slips are delivered to the Scorekeepers for recording and to the appropriate coaches.
+    d. Ensuring DQ slips are delivered to the Scorekeepers for recording.
 
 5. May be requested by the Meet Referee to independently observe the order of finish to assist the Sweep Judges or serve as a tie-breaker.
 
@@ -114,11 +112,9 @@ This section outlines the roles, responsibilities, and certification requirement
 
 ### Sweep Judges
 
-1. Two sweep judges (one from each **Team**) shall be positioned on the side of the course near the finish and shall judge the order of finish of all non-exhibition swimmers. They shall independently record the order of finish of all non-exhibition swimmers. A sweep judge shall record a tie if a place distinction cannot be made.
+1. Two sweep judges (one from each **Team**) shall be positioned on the side of the course near the finish and shall independently judge and record the order of finish of all non-exhibition swimmers. A sweep judge shall record a tie if a place distinction cannot be made.
 
-2. If both sweep judges' independent record of the order of finish agree, the order of finish shall be entered onto the Place Judge Form to be delivered to the scorekeeper.
-
-3. The sweep judges shall notify the Referee in the event that their independent recorded orders of finish do not match.
+2. See the Place Recording procedures in the Conduct of Interpool Meets section for detailed process.
 
 ### Timers
 
@@ -130,7 +126,7 @@ This section outlines the roles, responsibilities, and certification requirement
 
     b. Stand directly over the assigned lane at the finish to observe a touch above, at, or below the surface of the water and stop the watch and/or push the semi-automatic system button when any part of the swimmer's body touches the wall.
 
-    c. Report the watch time to the Head Lane Timer or the designated recorder, report if a late or missed pad touch is observed; and, if requested, present the watch for inspection. Lane Timers shall not clear their watches until a command to "clear watches" is given or the Referee signals that the next heat is ready to start.
+    c. Report the watch time to the designated recorder, report if a late or missed pad touch is observed; and, if requested, present the watch for inspection. Lane Timers shall not clear their watches until a command to "clear watches" is given or the Referee signals that the next heat is ready to start.
 
 ### Scorekeepers
 
@@ -146,25 +142,21 @@ This section outlines the roles, responsibilities, and certification requirement
 
 4. After the meet has begun, the scorekeeper shall accept changes only in accordance with the substitution rules outlined in the Conduct of Interpool Meets section.
 
-5. All Lane Slips (if used), Place Judge Forms, Sweep Judge sheets, Meet Referee Sheet and the white copy of Disqualification Slips shall be retained and turned over to the home GPSA Representative at the end of the meet. The yellow copy of Disqualification Slips shall be given to the appropriate team's coach at the end of the meet.
-
-6. The home team GPSA Representative shall retain all official meet artifacts (including lane slips, Place Judge Forms, Sweep Judge sheets, Meet Referee sheets, and DQ slips) for the duration of the current season.
+5. See the Post-Meet Procedures in the Conduct of Interpool Meets section for meet artifact handling responsibilities.
 
 ### Coaches
 
 1. Shall stay in the area designated for his/her team and help to ensure that swim team members do not crowd the course or disrupt the officiating.
 
-2. Are responsible for declaring all entries in SwimTopia, ensuring that all exhibition entries are flagged as such, and notifying the opposing team's Coach and/or GPSA Representative that your entries are ready to be merged no later than 12 noon before the scheduled start of the meet.
+2. Are responsible for declaring all entries in SwimTopia and ensuring that all exhibition entries are flagged as such. See the Pre-Meet Requirements in the Conduct of Interpool Meets section for entry deadlines.
 
-3. Are responsible for keeping the next two heats of swimmers behind the blocks or in designated areas.
+3. Are responsible for seeing that each swimmer behind the blocks and waiting to swim has, if used, a properly completed lane slip; i.e., event name and number, lane assignment, first and last name (same as listed on the roster sheet) of swimmer and order of swimmers in relays.
 
-4. Are responsible for seeing that each swimmer behind the blocks and waiting to swim has, if used, a properly completed lane slip; i.e., event name and number, lane assignment, first and last name (same as listed on the roster sheet) of swimmer and order of swimmers in relays.
+4. May make substitutions in accordance with the substitution rules outlined in the Conduct of Interpool Meets section.
 
-5. May make substitutions any time except in the three events following that event in the water, in accordance with rules IX.C, XIII.C and XV.F.4.
+5. Are responsible for the conduct of their respective team.
 
-6. Are responsible for the conduct of their respective team.
-
-7. Will not interfere with the officiating of the meet.
+6. Will not interfere with the officiating of the meet.
 
 ### Relay Take-Off Judges
 
@@ -177,6 +169,8 @@ This section outlines the roles, responsibilities, and certification requirement
 ### Timing Equipment Operator (Optional)
 
 1. The Timing Equipment Operator shall be responsible for the automatic or semi-automatic timing equipment, including the electronic starting system and scoreboard (if used), and shall advise the Referee or GPSA Representative of any system problems that might affect the accuracy of times. The timing equipment should be placed so that the operator is able to observe the finish of each race.
+
+2. When automatic timing equipment is used without backup stopwatches, the Timing Equipment Operator may fulfill the duties of the Head Timer, and a separate Head Timer is not required.
 
 ## Certification
 
@@ -197,7 +191,7 @@ An individual may obtain or renew their certification through one of the followi
 
 1. **USA Swimming Certification:** Hold a current USA Swimming official certification (e.g., Stroke and Turn).
 
-2. **GPSA Training Clinic:** Attend the annual GPSA Officials' Training Clinic held before the start of the season.
+2. **GPSA Training Clinic:** Attend the annual GPSA Officials' Training Clinic held before the start of the season, or a clinic hosted by a GPSA Representative with approval from the Rules Committee.
 
 3. **USA Swimming Online Course:** Complete the official USA Swimming online course for the desired position (Stroke & Turn, Referee, Starter), which includes training material and an integrated test. Proof of completion (e.g., a certificate) is sufficient for certification.
 

@@ -28,8 +28,6 @@ An individual who meets all of the following criteria:
 
 1. Is a swim meet that is open to swimmers not qualified for the Championship Meet.
 
-2. Also referred to as MINI MEET.
-
 ## INTERPOOL MEET
 
 Also known as a dual meet, shall mean a swim meet swum between two pools.

@@ -23,6 +23,7 @@ This section establishes the procedures and requirements for conducting GPSA dua
     a. Upon postponement, the GPSA Representatives' first priority is to agree on a date to hold the meet as soon as reasonably possible (e.g., the next day).
     b. If an immediate alternative date cannot be mutually agreed upon, the meet shall be held on the next available official league rain date.
     c. A final, rescheduled date **must** be confirmed by both Representatives within 24 hours of the initial postponement.
+    d. Any meet rescheduled to a date after the Summer Splash Invitational must receive approval from the Rules Committee.
 
 6. **Defining a Completed Meet:**
 
@@ -35,7 +36,11 @@ This section establishes the procedures and requirements for conducting GPSA dua
     a. The collaborative rescheduling of a suspended meet is a primary responsibility of both GPSA Representatives, who are expected to begin discussions on the night of the postponement.
     b. If the Representatives fail to agree on a reschedule date within the 24-hour period required by rule 5.c, the meet shall be declared a **loss for both teams.**
 
-8. **Postponed Meet Entries:** In the event of a postponed swim meet, each team's entries shall remain unchanged and saved in Meet Maestro until the resumption of the meet. Changes may be made in accordance with the substitution rules.
+8. **Postponed Meet Entries:**
+
+    a. If a meet is postponed before it has started, a new meet shall be created in SwimTopia to allow families to submit new declarations. Teams must contact the league SwimTopia administrator to ensure the new meet is setup properly.
+
+    b. If a meet has started and is subsequently postponed, each team's entries shall remain unchanged in Meet Maestro until the resumption of the meet. Changes may only be made in accordance with the substitution rules. Teams may contact SwimTopia (help@swimtopia.com) to split the meet into a multi-session meet if updated heat sheets with new dates and start times are needed.
 
 ## Venue and Code of Conduct
 
@@ -57,8 +62,8 @@ This section establishes the procedures and requirements for conducting GPSA dua
 
 |            Home Team            |               Visitors               |
 | :-----------------------------: | :----------------------------------: |
-|           One referee           |     One timer per assigned lane      |
-|           One starter           |           Two S&T judges             |
+|           One referee           |           Two S&T judges             |
+|           One starter           |     One timer per assigned lane      |
 |         Two S&T judges          |           One sweep judge            |
 |   One timer per assigned lane   |           One scorekeeper            |
 |         One Head timer          |            Ribbon writer             |
@@ -74,15 +79,14 @@ This section establishes the procedures and requirements for conducting GPSA dua
 |     Table for scorekeepers      |                                      |
 |     Chairs for sweep judges     |                                      |
 | Laptop/Tablet for Meet Maestro  |                                      |
-|   Six (6) printed heat sheets   |                                      |
 
 *\*stopwatches are recommended as backup even if using a timing system*
 
 *\*it is recommended for the visiting team to also bring a laptop/tablet for their scorekeeper to use Meet Maestro*
 
-2. **Alternative Official Assignments:** By mutual agreement of both GPSA Representatives, teams may share qualified officials across home and visiting team positions to meet operational needs.
+1. **Alternative Official Assignments:** By mutual agreement of both GPSA Representatives, teams may share qualified officials across home and visiting team positions to meet operational needs.
 
-3. **Timer Configuration:** By mutual agreement of both GPSA Representatives, teams may use two or three timers per lane instead of the standard one timer per lane.
+2. **Timer Configuration:** By mutual agreement of both GPSA Representatives, teams may use two or three timers per lane instead of the standard one timer per lane.
 
 ## Swimmer Participation and Entries
 
@@ -120,9 +124,7 @@ This section establishes the procedures and requirements for conducting GPSA dua
 4. **Required Materials:** Both teams shall prepare all necessary heat sheets, place judge forms, scoring materials, and official documentation as specified in the [GPSA Meet Preparation Guide](https://publicity.gpsaswimming.org/wiki/meet-preparation).
 
 5. **Heat Sheet and Score Publication:**
-
     a. Enabling heat sheet access on the SwimTopia Mobile App, or distributing heat sheets to parents (whether printed or electronic), requires the mutual agreement of both GPSA Representatives. Any disagreement shall default to not publishing or distributing.
-
     b. Live meet scores shall not be published to the SwimTopia Mobile App or announced during the meet.
 
 ### Swimmer Readiness
@@ -165,11 +167,9 @@ This section establishes the procedures and requirements for conducting GPSA dua
 
 ### Place Recording
 
-1. **Sweep Judge Determination:** The sweep judges shall independently observe and determine the order of finish for each scoring heat.
+1. **Sweep Judge Determination:** The sweep judges shall independently observe and determine the order of finish for each scoring heat, each recording their observations on their own Sweep Judge Ranking Sheet.
 
-2. **Place Judge Form:**
-    a. The scorekeeper shall print a Place Judge Form from Meet Maestro for each heat of Heat 1 of all scored events (events 1-56).
-    b. If the sweep judges concur on the order of finish, they shall record the order on the Place Judge Form.
+2. **Place Judge Form:** If the sweep judges concur on the order of finish, they shall record the order on the Place Judge Form.
 
 3. **Referee Review:**
     a. The sweep judges deliver the Place Judge Form to the referee (directly or via runner).
@@ -179,6 +179,21 @@ This section establishes the procedures and requirements for conducting GPSA dua
 4. **Final Recording:**
     a. A runner delivers the initialed Place Judge Form to the scorekeeper.
     b. The scorekeeper enters the order of finish into Meet Maestro for Heat 1 of all scored events (events 1-56).
+
+### Post-Meet Procedures
+
+1. **Referee Responsibilities:**
+    a. Verify the order of finish has been entered into Meet Maestro for Heat 1 of all scoring events.
+    b. Complete the Meet Referee Verification of Scores form.
+    c. Deliver their heat sheet and/or Meet Referee Sheet to the scorekeeper.
+
+2. **Scorekeeper Responsibilities:**
+    a. Ensure the yellow copies of the DQ slips are delivered to the respective coaches or GPSA Representatives.
+    b. Deliver all [meet artifacts](https://wiki.gpsaswimming.org/scorekeeper#step-3-paperwork-handoff) to the home team GPSA Representative.
+
+3. **Home GPSA Representative Responsibilities:**
+    a. Lock out changes in Meet Maestro and transfer results.
+    b. Submit meet results to the GPSA Publicity Committee within 24 hours of meet completion. Failure to submit results within this deadline may result in penalties at the discretion of the Rules Committee.
 
 ## Protests
 
@@ -199,9 +214,7 @@ This section establishes the procedures and requirements for conducting GPSA dua
     b. The GPSA Representative believes the referee's decision warrants further review.
     c. Such appeals must be submitted in writing to the Rules Committee within three (3) days of the meet.
 
-2. **Swimmer Eligibility:** Protests concerning the eligibility of any swimmer to compete in an event shall be submitted to the Rules Committee within three (3) days of the meet.
-
-3. **Post-Meet Review:** Protests arising from review of meet results after the meet has concluded shall be submitted to the Rules Committee as follows:
+2. **Post-Meet Review:** Protests arising from review of meet results after the meet has concluded shall be submitted to the Rules Committee as follows:
     a. Initial notification to the Rules Committee within 24 hours of meet completion.
     b. Formal written protest within three (3) days of meet completion.
 

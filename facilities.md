@@ -20,10 +20,6 @@ This section establishes the minimum standards for pools hosting GPSA-sanctioned
 
 ## Starting Platforms
 
-**Note: This section contains both legacy GPSA requirements and current USA Swimming standards for committee review and decision.**
-
-### Legacy GPSA Requirements
-
 1. Starting requirements and block heights based on water depth at the starting end (measured 3 feet from the bulkhead):
     - In pools with water less than 3'6": Starts shall be from the water.
     - In pools with water 3'6" to less than 4': Starting blocks shall be no more than 18" above the water surface.
@@ -32,12 +28,3 @@ This section establishes the minimum standards for pools hosting GPSA-sanctioned
 2. The platform must have a horizontal handgrip about 18 inches above the water.
 
 3. The platform shall be marked with a lane number.
-
-### USA Swimming Standards (2025)
-
-1. Starting block maximum height: 0.75 meters (29.5 inches) above the water surface.
-
-2. Water depth requirements for starting blocks:
-    - Less than 4' depth: All swimmers must start from within the water (no blocks allowed).
-    - 4' to 6' depth: Starting blocks allowed only for swimmers certified by a USA Swimming coach.
-    - Greater than 6' depth: Starting blocks allowed for all swimmers.
