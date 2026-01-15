@@ -26,7 +26,7 @@ An individual who meets all of the following criteria:
 
 ## SUMMER SPLASH INVITATIONAL MEET
 
-1. Is a swim meet that is open to swimmers not qualified for the Championship Meet.
+Is a swim meet that is open to swimmers not qualified for the Championship Meet.
 
 ## INTERPOOL MEET
 
