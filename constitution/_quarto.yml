@@ -1,0 +1,180 @@
+project:
+  type: book
+  output-dir: ../docs
+
+# Filters - applied in order listed
+filters:
+  - filters/roman-numerals.lua
+  - filters/draft-watermark.lua
+
+book:
+  title: "GPSA Constitution"
+  subtitle: "Greater Peninsula Swimming Association"
+  author: "GPSA Board of Directors"
+  date: "November 2025"
+  date-format: "MMMM YYYY"
+  page-navigation: false
+
+  # Book structure
+  chapters:
+    - index.qmd
+
+# Format configurations - PDF only
+format:
+  pdf:
+    documentclass: report
+    classoption: [oneside]
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    geometry:
+      - margin=1in
+      - top=1.25in
+      - bottom=1.25in
+    colorlinks: true
+    linkcolor: NavyBlue
+    urlcolor: NavyBlue
+    toccolor: NavyBlue
+    papersize: letter
+    fig-pos: 'H'
+    pdf-engine: pdflatex
+    keep-tex: false
+
+    # Title page customization
+    include-in-header:
+      text: |
+        \usepackage{graphicx}
+        \usepackage{xcolor}
+        \usepackage{pagecolor}
+        \definecolor{GPSANavy}{HTML}{002366}
+        \definecolor{GPSARed}{HTML}{d9242b}
+
+        % Define subtitle command
+        \makeatletter
+        \newcommand{\subtitle}[1]{\gdef\@subtitle{#1}}
+        \newcommand{\@subtitle}{}
+        \makeatother
+
+        % Custom title page
+        \makeatletter
+        \renewcommand{\maketitle}{
+          \begin{titlepage}
+            \pagecolor{white}
+            \newgeometry{margin=1in}
+
+            % Center everything vertically and horizontally
+            \centering
+            \vspace*{2cm}
+
+            % GPSA Logo
+            \includegraphics[width=3in]{../gpsa_logo.png}
+
+            \vspace{1.5cm}
+
+            % Title
+            {\Huge\bfseries\color{GPSANavy}\@title\par}
+
+            \vspace{0.5cm}
+
+            % Subtitle
+            {\Large\color{GPSANavy}\@subtitle\par}
+
+            \vspace{2cm}
+
+            % Decorative line
+            {\color{GPSARed}\rule{4in}{2pt}\par}
+
+            \vspace{2cm}
+
+            % Date
+            {\large\@date\par}
+
+            \vfill
+
+            % Footer text
+            {\footnotesize\color{gray}
+            Official Constitution\\
+            Greater Peninsula Swimming Association\\
+            \vspace{0.3cm}
+            www.gpsaswimming.org
+            \par}
+
+            \restoregeometry
+          \end{titlepage}
+          \pagecolor{white}
+          % Clear any blank pages after title
+          \clearpage
+        }
+        \makeatother
+
+        % Remove blank page before TOC
+        \let\cleardoublepage\clearpage
+
+        % Adjust TOC spacing for "Article I" style numbering on sections
+        \usepackage{tocloft}
+
+        % Remove chapter number from TOC entirely
+        \makeatletter
+        \renewcommand{\cftchappresnum}{\begin{lrbox}{\@tempboxa}}
+        \renewcommand{\cftchapaftersnum}{\end{lrbox}}
+        \makeatother
+        \setlength{\cftchapnumwidth}{0pt}
+
+        \setlength{\cftsecnumwidth}{8em}   % Width for section numbers (Article I, II, etc.)
+        \setlength{\cftsubsecnumwidth}{4em}   % Width for subsection numbers (A, B, etc.)
+        \renewcommand{\cftsecaftersnum}{\hspace{0.5em}}
+        \renewcommand{\cftsubsecaftersnum}{\hspace{0.5em}}
+
+        % Chapter/Section styling for technical document
+        \usepackage{titlesec}
+
+        % Format chapters with no number (just "Constitution", not "1 Constitution")
+        \titleformat{\chapter}[block]
+          {\normalfont\huge\bfseries\color{GPSANavy}}
+          {}{0em}{}
+          [\vspace{2pt}{\color{GPSARed}\titlerule[2pt]}]
+
+        % Spacing: {left}{before-sep}{after-sep}
+        \titlespacing*{\chapter}{0pt}{1.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+        % Section formatting
+        \titleformat{\section}
+          {\normalfont\Large\bfseries\color{GPSANavy}}
+          {\thesection}{1em}{}
+
+        % Subsection formatting
+        \titleformat{\subsection}
+          {\normalfont\large\bfseries\color{GPSANavy}}
+          {\thesubsection}{1em}{}
+
+        % Headers and footers
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhf{} % Clear all header and footer fields
+
+        % Headers - same on all pages
+        \fancyhead[L]{\small\color{GPSANavy}\textbf{Greater Peninsula Swimming Association (GPSA)}}
+        \fancyhead[R]{\small\color{GPSANavy}\textbf{GPSA Constitution}}
+
+        % Footers - same on all pages
+        \fancyfoot[C]{\small\thepage}
+        \fancyfoot[R]{\small\color{gray}{{< meta date >}}}
+
+        % Header rule color
+        \renewcommand{\headrulewidth}{0.4pt}
+        \renewcommand{\headrule}{\hbox to\headwidth{\color{GPSARed}\leaders\hrule height \headrulewidth\hfill}}
+
+        % Footer rule
+        \renewcommand{\footrulewidth}{0pt}
+
+        % Apply fancy style to all pages including section first pages
+        \makeatletter
+        \let\ps@plain\ps@fancy
+        \makeatother
+
+# Execution - don't execute code blocks by default
+execute:
+  enabled: false
+
+# Metadata
+lang: en

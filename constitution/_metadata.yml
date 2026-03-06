@@ -1,0 +1,3 @@
+# Custom GPSA draft flag - set to true to add "DRAFT" watermark to PDF
+# (doesn't use Quarto's native 'draft' field which breaks sidebar navigation)
+gpsa_draft: false

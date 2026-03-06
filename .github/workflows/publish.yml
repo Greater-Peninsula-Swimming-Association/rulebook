@@ -36,6 +36,12 @@ jobs:
       - name: Render Quarto project
         run: quarto render
 
+      - name: Render Constitution PDF
+        run: cd constitution && quarto render
+
+      - name: Render Code of Conduct PDF
+        run: cd code-of-conduct && quarto render
+
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
