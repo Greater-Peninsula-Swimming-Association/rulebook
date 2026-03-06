@@ -1,7 +1,9 @@
 # macOS
 .DS_Store
 .AppleDouble
+.LSOverride
 ._*
+.fseventsd
 
 # Editors and IDEs
 .claude/
