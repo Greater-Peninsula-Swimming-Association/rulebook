@@ -60,6 +60,13 @@ format:
     number-sections: true
     link-external-newwindow: true
     code-link: true
+    include-in-header:
+      text: |
+        <script
+          async
+          src="https://citadel.dadalorian.com/stardust.js"
+          data-website-id="c84ed41d-c41e-4b0c-aff0-f8acdf0c0e53"
+        ></script>
 
   # PDF output
   pdf:

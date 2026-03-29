@@ -57,3 +57,6 @@ scratch/
 
 # Log files
 *.log
+
+/.quarto/
+**/*.quarto_ipynb
